@@ -1,2 +1,1 @@
-
-    if len(i)%2 == 0:
+print([x for x in data if x < minval])
