@@ -1,4 +1,4 @@
-for data in 
+
     # for i in range(dim[0]):
     #     for j in range(dim[1]):
     #       value = data[i, j]

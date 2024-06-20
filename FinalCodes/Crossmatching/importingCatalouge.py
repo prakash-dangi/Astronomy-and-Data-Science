@@ -13,7 +13,7 @@ def dms2deg(dms):
 
 def import_bss():
     cat = np.loadtxt('FinalCodes/Crossmatching/bss.dat', usecols=range(1, 7))
-
+    
     data = []
     for ID, c in enumerate(cat, start=1):
         ra = hms2deg(c[0:3])
@@ -31,4 +31,4 @@ def import_super():
     return data
 
 # print(import_bss())
-print(import_super())
+# print(import_super())

@@ -14,4 +14,3 @@ def angular_dist(ra1, dec1, ra2, dec2):
     return np.degrees(d)
 
 d = angular_dist(10.3, -3, 24.3, -29)
-print(d)
